@@ -1,0 +1,21 @@
+%h1 Tic-Tac-Toe
+%table{align: "center"}
+  - (0..2).each do |i|
+    %tr
+      - (0..2).each do |j|
+        %td
+          - a = @board[i * 3 + j]
+          - if a == " "
+            - if @done
+              &nbsp;
+            - else
+              %a{href: "?board=#{setBoard(@board, "x", i * 3 + j)}"} &nbsp;
+          - else
+            = a
+
+- if @done
+  %h2= @done
+  %h2
+    %a{href: "/"} retry?
+
+
