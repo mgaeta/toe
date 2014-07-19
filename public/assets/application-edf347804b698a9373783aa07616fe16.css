@@ -1,0 +1,33 @@
+/* line 1, /Users/marcos/Sites/toe/app/assets/stylesheets/application.css.scss */
+body {
+  background-color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 7, /Users/marcos/Sites/toe/app/assets/stylesheets/application.css.scss */
+h1, h2 {
+  color: gray;
+}
+
+/* line 11, /Users/marcos/Sites/toe/app/assets/stylesheets/application.css.scss */
+table {
+  border: 1px solid black;
+  color: black;
+}
+/* line 12, /Users/marcos/Sites/toe/app/assets/stylesheets/application.css.scss */
+table td {
+  border: 10px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  font-weight: 900;
+  color: black;
+  font-size: 72px;
+}
+/* line 22, /Users/marcos/Sites/toe/app/assets/stylesheets/application.css.scss */
+table td a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
